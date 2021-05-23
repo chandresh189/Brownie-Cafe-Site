@@ -1,0 +1,172 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  display: block;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  /* height: 50px; */
+  float: left;
+  padding-left: 10px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a{
+  height: 100%;
+  padding: 0px 20px;
+  color: gray;
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#mission {
+  width: 90%;
+  background-image: url("resources/img-mission-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text {
+  background-color: black;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#mission h2 {
+  font-family: 'Great Vibes', cursive;
+  margin: 0px;
+  width: 100%;
+}
+
+#mission h4 {
+  font-style: italic;
+    width: 100%;
+    padding: 0.5%;
+}
+
+#featured-dishes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featured-dishes-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.featured-dishes-img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-dishes-img img{
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  margin-top: 3.334%;
+}
+
+#locations {
+  /* max-height: 500px;
+  max-width: 1200px;
+  padding-top: 5%;
+  margin-top: 5%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  /* flex: 1 1200px; */
+  background-image: url("resources/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 100%;
+}
+
+.locations-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.locations-title h2 {
+  background-color: transparent;
+  color: blanchedalmond;
+}
+
+.locations-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  opacity: 1;
+  padding: 15px 20px 100px 20px;
+  overflow: hidden;
+}
+
+.location-containers {
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+  margin: 50px;
+  overflow: hidden;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact h5 {
+  font-weight: lighter;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  padding-right: 20px;
+  font-size: 0.8rem;
+  justify-content: flex-end;
+}
