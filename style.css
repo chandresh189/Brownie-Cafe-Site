@@ -170,3 +170,69 @@ footer {
   font-size: 0.8rem;
   justify-content: flex-end;
 }
+
+
+
+@media only screen and (max-width: 755px) {
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .nav a{
+    /* display: flex; */
+    float: left;
+    /* justify-content: flex-end; */
+    padding: 0px;
+    margin: 5px;
+  }
+
+  .logo p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 35px;
+  }
+
+  main {
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mission {
+    width: 90%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+  }
+
+  .locations-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locations-container h3 {
+    font-size: 0.8rem;
+  }
+
+  .locations-container p {
+    font-size: 0.7rem;
+  }
+
+  .location-containers {
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+  }
+}
